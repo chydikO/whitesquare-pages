@@ -503,6 +503,7 @@ footer a {
         padding: 0;
         /* width: 70px; */
         font-size: 14px;
+        white-space: nowrap;
     }
     nav li{
         list-style-position: inside;
@@ -548,7 +549,9 @@ footer a {
         margin-bottom: 20px;
     }
     .team-row figure + figure:nth-child(10) {
-        display: none;
         margin-left: 57px;
+    }
+    #footer-logo {
+        display: none;
     }
 }
