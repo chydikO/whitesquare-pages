@@ -446,8 +446,12 @@ footer a {
     #social {
         float: none;
     }
-    .footer-links h3, .footer-links a, #footer-logo p {
+
+    /*.footer-links h3, .footer-links a, #footer-logo p {
         color: #8f8f8f;
+    }*/
+    #footer {
+        height: auto;
     }
 
     .footer-links {
@@ -456,6 +460,9 @@ footer a {
         justify-content: space-between;
         margin-bottom: 15px;
         padding: 0 15px;
+    }
+    #footer-logo {
+        display: none;
     }
 }
 
